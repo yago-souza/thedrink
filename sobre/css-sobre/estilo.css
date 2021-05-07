@@ -1,0 +1,102 @@
+header{
+    background-color:rgb(172, 145, 72);
+    padding: 10px;
+}
+
+body {
+color: black;
+font-family: fantasy;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+
+#Compras {
+    
+    background-repeat: no-repeat;
+    background-position: top left;
+    font-size: 15px;
+    padding-right: 25px;
+    text-align: left;
+    width: 180px;
+    padding-top: 48px;
+    position: absolute;
+    top: 10px;
+    right: -5px;
+}
+
+.carrinho-compras{
+    background-repeat: no-repeat;
+    background-position: top left;
+    font-size: 15px;
+    padding-right: 30px;
+    text-align: right;
+    width: 200px;
+    padding-top: 5px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+
+.bebidas{
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-size: 10px;
+    padding-left: 50px;
+    text-align: center;
+    width: 10px;
+    padding-top: 8px;
+    position: relative;
+    top: 10px;
+    right: 10px;
+    margin-left: -19px;
+}
+
+
+h1{
+    color: rgba(245, 245, 245, 0.575);
+}
+#Heineken{
+    background-position: auto;
+    font-size: 0px;
+    padding-top: 30px;
+    text-align: left;
+    position: relative;    
+ 
+}
+#Budweiser{
+    background-position: auto;
+    font-size: 0px;
+    padding-top: 10px;
+    text-align: left;
+    position: relative; 
+
+}
+#Skol{
+    background-position: auto;
+    font-size: 0px;
+    padding-bottom: 12px;
+    position:relative;
+    text-align: left;
+}
+
+#Bebidas{
+    color: rgb(172, 145, 72);
+    position: relative;
+    padding-bottom: 10px;
+    text-align: left;
+}
+footer{
+    background-color: rgb(172, 145, 72);
+    padding: 10px;
+}
+
+
+
+
+
+
+
+

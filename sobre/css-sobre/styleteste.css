@@ -1,0 +1,109 @@
+* {
+margin: 0;
+padding: 0;}
+
+body{
+font-family: sans-serif;
+}
+/* cabeçalho */
+.cabecalho {
+padding: 15px 8px;
+background-color:white;
+display: flex;
+}
+
+.logo {
+width: 40%;
+}
+
+.logo img{
+width: 300px;
+height: 180px;
+margin-left: 80px;    
+}
+
+.icons {
+display: flex;
+align-items: baseline;
+width: 60%;
+}
+
+.icons .iconsAlign {
+display: flex;
+align-items: center;
+width: 100%;
+justify-content: flex-end;
+}
+
+.icons form{
+display: flex;
+align-items: center;
+}
+
+.icons a{
+font-size: 30px;
+color: black;
+padding-right: 2vw;
+}
+
+.icons input[type="text"] {
+width: 20vw;
+height: 50px;
+border-radius: 5px 0 0 5px;
+border: 3px solid #f2eded;
+padding: 2px; 
+}
+.icons button{
+width: 37px;
+height: 60px;
+font-size: 15px;
+border-radius: 0 5px 5px 0;
+background-color: white;
+color: black;
+border: 3px solid #f2eded;
+}
+
+.icons .login{
+background-color:white;
+}
+.noticias{
+    width: 100%;
+    float: left;
+    background-color: black;  
+    padding: 20px 8px;    
+}
+.noticias h3{
+    font-size: 30px;
+    color: white;
+}
+.noticias p{
+    color: white;
+    font-size: 20px;
+}
+.noticias form{
+    margin-top: 10px;
+}
+.noticias input{
+    width: 400px;
+    margin-right: 2px;
+    padding: 15px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.noticias button{
+    width: 100px;
+    background-color: #fff;
+    padding: 15px 1px;
+    border-radius: 15px;
+}
+.social{
+    float: right;
+    padding: 20px 8px;
+}
+.rodape{
+    width: 100%;
+    float: left;
+    background-color: brown;
+    color: white;
+    padding: 20px 8px;
+}
