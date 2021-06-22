@@ -397,4 +397,17 @@ body{
             .container{
                 height: 500px;
             }
-           
+            
+            .agradecimento2{
+                background-color: rgb(218, 218, 218);
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: 50px;
+                height: 500px;
+            }
+            
+            .agradecimento2 h1{
+                font-size: 45px;
+                padding: 220px;
+                color: #333;
+            }
