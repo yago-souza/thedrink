@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;}
+    
+    body{
+        font-family: sans-serif;
+    }
+            /* cabeçalho */
+            .cabecalho {
+                padding: 5px 8px;
+                background-color:white;
+                display: flex;
+            }
+            
+            .logo {
+                width: 40%;
+                margin: 10px;
+            }
+            
+            .logo img{
+                height: 80px;
+                margin-left: 80px;    
+            }
+            
+            .icons {
+                display: flex;
+                align-items: baseline;
+                width: 60%;
+                margin-top: 10px;
+            }
+            
+            .icons .iconsAlign {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                justify-content: flex-end;
+            }
+            
+            .icons form{
+                display: flex;
+                align-items: center;
+            }
+            
+            .icons a{
+                font-size: 30px;
+                color: black;
+                padding: 5px;
+                border: 3px solid #f2eded;
+            }
+            
+            .icons input[type="text"] {
+                width: 20vw;
+                height: 50px;
+                border-radius: 5px 0 0 5px;
+                border: 3px solid #f2eded;
+                padding: 2px; 
+            }
+            .icons button{
+                width: 50px;
+                height: 50px;
+                font-size: 15px;
+                border-radius: 0 5px 5px 0;
+                background-color: white;
+                color: black;
+                border: 3px solid #f2eded;
+                margin-right: 5%;
+            }
+            
+            .icons .login{
+                background-color:white;
+            } 
+    
+                            /* FIM DO CABEÇALHO*/
+    
+                /*MENU */
+            .menu {
+                width: 100%;   
+                background-color: black; 
+                height: 60px;    
+                padding: 12px;  
+                margin-bottom: 0;
+                justify-content: center;
+                display: flex;
+            }
+    
+                .menu li{
+                    margin-left: 80px;
+                    display: inline; 
+                }
+                .menu li a{
+                    color: #fff;
+                    margin-right: 25px;
+                    text-decoration: none;
+                }
+                .menu li a:hover{
+                    color: aliceblue;
+                }
+    
+                .top_3{
+                    height: 40px;
+                    background-color: rgb(34, 33, 33);
+                    color:#f2eded;       
+                }
+    
+                            /* AQUI TERMINA O MENU */
+                .top_3 h1{
+                    text-align: center;
+                    font-size: 30px;  
+                }
+#rodape4 {
+    color:#fff;
+    background-color: #333;
+    margin: 0 0;
+    padding: 30px 0;
+}
+
+.cadastro{
+    margin: 50px;
+    margin-top: 10px;
+    padding: 10px;
+}
+    
+#agradecimento {
+    margin-top: 20px;
+    padding: 25px;
+    height: 100px;
+    background-color: #ccc;
+}
+#agradecimento div{
+    margin-left: 2.5%;
+    font-size: 25px;
+}
+
+#panel-body{
+    width: 200px;
+}
+
+.caracteristicas{
+    display: inline;
+}
+
+.caracteristicas {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.caracteristicas ul {
+    margin-top: 0px;
+    position: absolute;
+    font-size: 15px;
+    height: 120px;
+    width: 110px;
+    padding: 15px;
+}
+.caracteristicas ul li {
+    margin-left: 0px;
+    font-size: 20px;
+}
+
+.produto {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0 30px 0;
+}
+
+.produto img{
+    width: 400px;
+}
+.caracteristicas {
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0 30px 0;
+}
+.col-sm-4{
+    height: 230px;
+    width: 500px;
+    margin-left: 2%;
+    margin-top: 5px;
+}
+.paineis{
+    margin-top: 5px;
+    height: 230px;
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.quadrado {
+    background-color: green;
+    height: 100px;
+}
+
+.absoluto1 {
+    position: relative;
+    background-color: red;
+    top:100px;
+    right: 0px;
+    left:0px;
+    height: 80%;
+}
+
+.absoluto2 {
+    position: relative;
+    background-color: yellow;
+    width: 100%;
+    bottom:0px;
+    right: 0px;
+    left:0px;
+    height: 10%;
+}
+*/

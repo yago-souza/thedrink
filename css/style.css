@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;}
+    
+    body{
+        font-family: sans-serif;
+    }
+            /* cabeçalho */
+            .cabecalho {
+                padding: 5px 8px;
+                background-color:white;
+                display: flex;
+            }
+            
+            .logo {
+                width: 40%;
+                margin: 10px;
+            }
+            
+            .logo img{
+                height: 80px;
+                margin-left: 80px;    
+            }
+            
+            .icons {
+                display: flex;
+                align-items: baseline;
+                width: 60%;
+                margin-top: 10px;
+            }
+            
+            .icons .iconsAlign {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                justify-content: flex-end;
+            }
+            
+            .icons form{
+                display: flex;
+                align-items: center;
+            }
+            
+            .icons a{
+                font-size: 30px;
+                color: black;
+                padding: 5px;
+                border: 3px solid #f2eded;
+            }
+            
+            .icons input[type="text"] {
+                width: 20vw;
+                height: 50px;
+                border-radius: 5px 0 0 5px;
+                border: 3px solid #f2eded;
+                padding: 2px; 
+            }
+            .icons button{
+                width: 50px;
+                height: 50px;
+                font-size: 15px;
+                border-radius: 0 5px 5px 0;
+                background-color: white;
+                color: black;
+                border: 3px solid #f2eded;
+                margin-right: 5%;
+            }
+            
+            .icons .login{
+                background-color:white;
+            } 
+
+                        /* FIM DO CABEÇALHO*/
+
+            /*MENU */
+        .menu {
+            width: 100%;   
+            background-color: black;     
+            padding: 20px 8px;  
+            margin-bottom: 0;
+            justify-content: center;
+            display: flex;
+            
+        }
+
+            .menu li{
+                margin-left: 80px;
+                display: inline;    
+                
+            }
+            .menu li a{
+                color: #fff;
+                margin-right: 25px;
+                text-decoration: none;
+            }
+            .menu li a:hover{
+                color: aliceblue;
+            }
+
+
+            .top_3{
+                height: 80px;
+                background-color: rgb(34, 33, 33);
+                color:#f2eded;
+                padding: 18px 8px;             
+            }
+
+                        /* AQUI TERMINA O MENU */
+            .top_3 h1{
+                text-align: center;
+                
+                        /*  estilizando as imagens das garrafas */
+            }
+            .fotos-garrafa{
+                
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                background-color: white;
+                
+                
+            }
+            .img1 img {
+                width: 200px;
+                height: 400px;
+                margin-top: 40px;
+            }
+
+            .img2 img {
+                height: 400px;
+                margin-top: 40px;
+            }
+            .img3 img {
+                height: 400px;
+                margin-top: 40px;
+            }
+
+            .img1, .img2, .img3 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 400px;
+            }
+
+            .fotos-garrafa button{
+                width: 150px;
+                height: 80px;
+                font-size: 20px;
+                border-radius: 25px;
+                
+                margin-top: 20px;
+
+            }
+                                    /* NOTICIAS */
+            .noticias{
+               
+                background-color: black;  
+                padding: 20px 8px;    
+                margin-top: 300px;
+                
+
+            }
+            .noticias h3{
+                font-size: 30px;
+                color: white;
+            }
+            .noticias p{
+                color: white;
+                font-size: 20px;
+            }
+            .noticias form{
+                margin-top: 10px;
+            }
+            .noticias input{
+                width: 400px;
+                margin-right: 2px;
+                padding: 15px 10px;
+                border: 1px solid #fff;
+                border-radius: 5px;
+            }
+            .noticias button{
+                width: 100px;
+                background-color: #fff;
+                padding: 15px 1px;
+                border-radius: 15px;
+            }
+            .social{
+                float: right;
+                padding: 20px 8px;
+            }
+            footer{
+                padding: 30px 8px;
+                background-color: brown;
+                display: flex;
+                flex-direction: column;
+                text-align: center;    
+                align-items: center;                
+            }
+                
+            footer p{
+                color: white;
+            }
+            .icons {
+                display: flex;
+                justify-content: center;
+                padding: 0px;
+                margin-bottom: 10px;
+            }
+
+            .icons li {
+                list-style: none;
+                margin: 0 10px;
+            }
+
+            .icons li a {
+                color: white;
+                font-size: 25px;
+            }
+            .icons li a:hover{
+                color: aliceblue;
+            }
+                            /*  COMEÇANDO A ESTILIZAR O SOBRE*/
+
+            .sobre{                
+                left: 25px;
+                background-image: url(../img/fundo.jpg);
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 600px;
+                
+                
+            }              
+            .sobre h1{
+                position: relative;
+                left: 1%;
+                color:#fcdeaf;
+                font-size: 35px;
+            }
+            .sobre p{                            
+                padding-left: 10px;
+                top: 15px;
+                color: #fcdeaf;
+                text-align: justify;
+                text-align: left;
+              
+            }                                
+           
+            .nos{
+                margin-top: 25px;
+                background-color: rgb(34, 33, 33);                 
+                height: 300px;
+                top: 50px;           
+                text-align: center;
+             } 
+
+            h2{
+                position: relative;
+                left: 1%;
+                top: 20px;
+                color: #fcdeaf;
+            }
+            .avatar{
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                padding: 30px;              
+             }
+
+                                            /* estilização da página de produtos*/
+
+             .container {
+                
+                height: 100vh;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: top
+            }
+            .paineis{
+                width: 980px;
+                margin: 0 auto;
+                width: 980px; 
+                
+            }
+            .painel {
+                margin: 10px 0;
+                padding: 10px;
+                width: 465px;
+            }
+            .novidades {
+                float: left;
+                background-color: white;
+            }
+            .mais-vendidos {
+                float: right;
+                background-color: white;
+            }
+            .painel ol {
+                padding-bottom: 10px;
+                margin: 0;
+            }
+            .painel li {
+                display: inline-block;
+                vertical-align: top;
+                height: 140px;
+                margin: 2px;
+                padding-bottom: 10px;
+            }
+            .painel h2 {
+                font-size: 24px;
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+                color: #333;
+            }
+            .painel a {
+                color: #333;
+                font-size: 14px;
+                text-align:  center;
+                text-decoration: none;
+            }
+            .painel figure {
+                width: 200px;
+                padding: 5px;
+                margin-left: auto;
+                margin-right: auto;
+                vertical-align: top;
+                margin-top: 35px;
+            }
+            .painel img{
+                height: 120px;
+               
+            }
+            .contato{
+                position: absolute;
+                
+            }
+           
